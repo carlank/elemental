@@ -1,0 +1,1 @@
+{"map":"{\"version\":3,\"file\":\"player.js\",\"sourceRoot\":\"\",\"sources\":[\"../../src/player.ts\"],\"names\":[],\"mappings\":\"AAAA,MAAM,OAAO,MAAM;IAGlB;QAFA,SAAI,GAAW,GAAG,CAAC;IAGnB,CAAC;CAGD\"}","code":"export class Player {\r\n    constructor() {\r\n        this.mana = 100;\r\n    }\r\n}\r\n//# sourceMappingURL=player.js.map"}
