@@ -2,8 +2,9 @@
   "name": "elemental",
   "version": "0.0.1",
   "description": "Elemental incremental game on a 2d map, diffusion based",
-  "main": "index.js",
+  "main": "./public/index.js",
   "scripts": {
+    "build": "rollup -c && node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,6 +14,7 @@
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.15",
+    "pug": "^2.0.4",
     "rollup": "^1.17.0",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-commonjs": "^9.1.4",

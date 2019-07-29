@@ -135,7 +135,7 @@
     };
     function gridOnClick(e) {
         var yo = getCursorPosition(e);
-        if (yo.row < width && yo.column < height) {
+        if (yo.row < width && yo.column < height && yo.row >= 0 && yo.column >= 0) {
             let power = grid[yo.row][yo.column] < cellMax - clickPower ? clickPower : Math.max(cellMax - grid[yo.row][yo.column], 0);
             power = Math.min(power, player.mana); // player.mana >= power ? power : player.mana; // ......doy
             grid[yo.row][yo.column] += power;

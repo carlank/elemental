@@ -8,13 +8,13 @@ import typescript from "rollup-plugin-typescript2";
 export default {
   input: "src/index.ts",
   output: {
-    file: "bundle.js",
+    file: "public/bundle.js",
     format: "umd",
     sourcemap: false
   },
 
   plugins: [
-    clear({ targets: ["bundle.js"] }),
+    clear({ targets: ["public/bundle.js"] }),
     resolve(),
     commonjs(),
     typescript({tsconfig: "./tsconfig.json"}),

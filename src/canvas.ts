@@ -5,9 +5,9 @@ var context = canvas.getContext('2d');
 export function getCursorPosition(e) {
     var x;
     var y;
-    if (e.pageX !== undefined && e.pageY !== undefined) {
-        x = e.pageX;
-        y = e.pageY;
+    if (e.clientX !== undefined && e.clientY !== undefined) {
+        x = e.clientX;
+        y = e.clientY;
     } else {
         x = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
         y = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
@@ -46,9 +46,9 @@ export function updateCanvas(grid, WIDTH, HEIGHT) {
         for (var y = 0; y < HEIGHT; y++) {
             var cur = new Cell(x, y);
             var rounded = Math.round(grid[x][y]);
-            var hue = 0;//rounded % 360;
-            var sat = 0;//(50 + Math.floor(rounded / 10)) % 500;
-            var lightness = rounded;// 50;
+            var hue = rounded % 360;
+            var sat = (50 + Math.floor(rounded / 10)) % 500;
+            var lightness = 50;
             // console.log(hue + ' ' + sat + ' ' + lightness);
             var clr = 'hsl(' + hue.toString() + ',' + sat.toString() + '%,' + lightness.toString() + '%)';
             fillCell(cur, clr);

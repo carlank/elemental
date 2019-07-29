@@ -1,21 +1,22 @@
 import { Cell } from './cell';
 import * as Canvas from './canvas';
 import { Player } from './player';
+import { Upgrade } from './upgrade';
 
 var grid = Array();
 var width = 1;
 var height = 1;
 var clickPower = 1;
 var speed = 10; // higher is slower
+const cellMax = 1000;
+const maxSize = 20;
 
 var player = new Player();
 
 
-
 function prettify(num) {
-    return (Math.round(num * 100) / 100); 
+    return (Math.round(num * 100) / 100);
 }
-
 
 
 var updateGrid = function() {
@@ -56,7 +57,7 @@ var updateGrid = function() {
     for (var x = 0; x < width; x++) {
         for (var y = 0; y < height; y++) {
             player.mana += grid[x][y] * suckFactor;
-            grid[x][y] *= 1 - suckFactor*0.9;
+            grid[x][y] *= 1 - suckFactor * 0.9;
         }
     }
 
@@ -65,7 +66,7 @@ var updateGrid = function() {
     for (var a = 0; a < width; a++) {
         for (var b = 0; b < height; b++) {
             var strung = prettify(grid[b][a]).toString();
-            $('#log').append(strung + ' ' + -prettify(grid[a][b]*suckFactor) + '/tick');
+            $('#log').append(strung + ' ' + -prettify(grid[a][b] * suckFactor) + '/tick');
         }
         $('#log').append($('<br/>'));
     }
@@ -75,18 +76,20 @@ var updateGrid = function() {
 
 function gridOnClick(e) {
     var yo = Canvas.getCursorPosition(e);
-    let power = grid[yo.row][yo.column] < 100 - clickPower ? clickPower : Math.max(100 - grid[yo.row][yo.column], 0);
-     power =  Math.min(power, player.mana);// player.mana >= power ? power : player.mana; // ......doy
-    grid[yo.row][yo.column] += power;
-    player.mana -= power;
-    
+    if (yo.row < width && yo.column < height && yo.row >= 0 && yo.column >= 0) {
+        let power = grid[yo.row][yo.column] < cellMax - clickPower ? clickPower : Math.max(cellMax - grid[yo.row][yo.column], 0);
+        power = Math.min(power, player.mana);// player.mana >= power ? power : player.mana; // ......doy
+        grid[yo.row][yo.column] += power;
+        player.mana -= power;
+    }
+
 }
 
 var initGrid = function() {
     $('#log').html('');
-    for (var a = 0; a < 10; a++) {
+    for (var a = 0; a < maxSize; a++) {
         grid.push(Array());
-        for (var b = 0; b < 10; b++) {
+        for (var b = 0; b < maxSize; b++) {
             grid[a].push(0);
             $('#log').append(grid[a][b] + ' ');
         }
@@ -96,22 +99,21 @@ var initGrid = function() {
 function init() {
     initGrid();
     Canvas.initCanvas(gridOnClick, width, height);
-    $('#crafting').html('');
     $('#crafting').append('<button id="growButton">Grow</button>');
     $('#crafting').append('<button id="powerButton">ClickPower: ' + clickPower + '</button>');
     $('#growButton').click(growField);
     $('#powerButton').click(addPower);
 }
-function growField(){
-    if(player.mana >= 100 * width && width < 10 && height < 10){
+function growField() {
+    if (player.mana >= 100 * width && width < maxSize && height < maxSize) {
         player.mana -= 100 * width;
         width += 1;
-        height+= 1;
+        height += 1;
     }
 }
 
-function addPower(){
-    if (player.mana >= 10 * clickPower){
+function addPower() {
+    if (player.mana >= 10 * clickPower) {
         player.mana -= 10 * clickPower;
         clickPower += 1;
     }
@@ -124,7 +126,7 @@ function run() {
 
     $('#log').append('Mana: ' + prettify(player.mana));
 
-    $('#powerButton').html('ClickPower: ' + clickPower);
+    // $('#powerButton').html('ClickPower: ' + clickPower);
 }
 
 init();

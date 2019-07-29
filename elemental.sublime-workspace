@@ -1,0 +1,1961 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"grid",
+				"gridOnClick\tfunction"
+			],
+			[
+				"Struct",
+				"StructureContainer\tconst"
+			],
+			[
+				"findCL",
+				"findClosestByRange\tmethod"
+			],
+			[
+				"store",
+				"storeCapacity\tproperty"
+			],
+			[
+				"RES",
+				"RESOURCE_LEMERGIUM\tconst"
+			],
+			[
+				"roleMin",
+				"roleMineralHauler\talias"
+			],
+			[
+				"stor",
+				"storeCapacity\tproperty"
+			],
+			[
+				"ERR_i",
+				"ERR_INVALID_TARGET\tconst"
+			],
+			[
+				"St",
+				"Structure\tconst"
+			],
+			[
+				"STRUC",
+				"STRUCTURE_TOWER\tconst"
+			],
+			[
+				"any",
+				"any\tkeyword"
+			],
+			[
+				"hits",
+				"hitsMax\tproperty"
+			],
+			[
+				"construc",
+				"ConstructionSite\tconst"
+			],
+			[
+				"FIND_MY",
+				"FIND_MY_CONSTRUCTION_SITES\tconst"
+			],
+			[
+				"STRUCTURESTO",
+				"STRUCTURE_STORAGE\tconst"
+			],
+			[
+				"STRUCTURE_t",
+				"STRUCTURE_TOWER\tconst"
+			],
+			[
+				"get",
+				"getObjectById\tmethod"
+			],
+			[
+				"STRUCTURE",
+				"STRUCTURE_WALL\tconst"
+			],
+			[
+				"carry",
+				"carryCapacity\tproperty"
+			],
+			[
+				"RESOURCE",
+				"RESOURCE_ENERGY\tconst"
+			],
+			[
+				"STRUCTURE_S",
+				"STRUCTURE_SPAWN\tconst"
+			],
+			[
+				"en",
+				"energyCapacityAvailable\tproperty"
+			],
+			[
+				"const",
+				"constructor\tkeyword"
+			],
+			[
+				"path",
+				"PathFinder\tconst"
+			],
+			[
+				"F",
+				"FIND_STRUCTURES\tconst"
+			],
+			[
+				"FIND_DROP",
+				"FIND_DROPPED_RESOURCES\tconst"
+			],
+			[
+				"FIND_DR",
+				"FIND_DROPPED_RESOURCES\tconst"
+			],
+			[
+				"carr",
+				"carryCapacity\tproperty"
+			],
+			[
+				"findClose",
+				"findClosestByPath\tmethod"
+			],
+			[
+				"source",
+				"sourceIndex\tlet"
+			],
+			[
+				"move",
+				"moveTo\tmethod"
+			],
+			[
+				"ERR_",
+				"ERR_NOT_IN_RANGE\tconst"
+			],
+			[
+				"strucut",
+				"structureType"
+			],
+			[
+				"findClos",
+				"findClosestByPath"
+			],
+			[
+				"findClo",
+				"findClosestByPath"
+			],
+			[
+				"FIND",
+				"FIND_CONSTRUCTION_SITES"
+			],
+			[
+				"FIND_",
+				"FIND_DROPPED_RESOURCES"
+			],
+			[
+				"s",
+				"split\tfunction"
+			],
+			[
+				"max",
+				"maxFragments"
+			],
+			[
+				"str",
+				"strength"
+			],
+			[
+				"fra",
+				"fragments\tstatement"
+			],
+			[
+				"prin",
+				"principle"
+			],
+			[
+				"frag",
+				"fragment"
+			],
+			[
+				"fram",
+				"fragmentId\tparam"
+			],
+			[
+				"p",
+				"principles\tmodule"
+			],
+			[
+				"element",
+				"elementId"
+			],
+			[
+				"save",
+				"save_file"
+			],
+			[
+				"Fil",
+				"filter\tclass"
+			],
+			[
+				"owed",
+				"owed_by"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"change",
+				"change_str\tstatement"
+			],
+			[
+				"cha",
+				"change_str\tstatement"
+			],
+			[
+				"temp",
+				"temp_num\tstatement"
+			],
+			[
+				"spl",
+				"split\tfunction"
+			],
+			[
+				"is",
+				"isnumeric\tfunction"
+			],
+			[
+				"asc",
+				"ascii_uppercase\tstatement"
+			],
+			[
+				"input_",
+				"input_string\tstatement"
+			],
+			[
+				"in",
+				"input_string\tstatement"
+			],
+			[
+				"a",
+				"add"
+			],
+			[
+				"input",
+				"input_string\tstatement"
+			],
+			[
+				"inpu",
+				"input_string\tstatement"
+			],
+			[
+				"total",
+				"total_books\tstatement"
+			],
+			[
+				"iu",
+				"isnumeric\tfunction"
+			],
+			[
+				"ass",
+				"assertEqual\tfunction"
+			],
+			[
+				"is_",
+				"is_italic\tstatement"
+			],
+			[
+				"stra",
+				"strand_b\tparam"
+			],
+			[
+				"b",
+				"b\tstatement"
+			],
+			[
+				"ascii_l",
+				"ascii_lowercase\tstatement"
+			],
+			[
+				"ran",
+				"range\tfunction"
+			],
+			[
+				"W",
+				"WIDTH\tstatement"
+			],
+			[
+				"py",
+				"pygame_template\tSimple pygame template"
+			],
+			[
+				"gene",
+				"geneIndex"
+			],
+			[
+				"Ng",
+				"NgbModule"
+			],
+			[
+				"imp",
+				"imp\timports a module …"
+			],
+			[
+				"Pixel",
+				"PixelGetColor"
+			],
+			[
+				"dis",
+				"dispatchEvent"
+			],
+			[
+				"sho",
+				"shopify_product_images"
+			],
+			[
+				"items",
+				"itemsService"
+			],
+			[
+				"mongo",
+				"MongoDB"
+			],
+			[
+				"Name",
+				"Name"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"req",
+				"req1\trequire_once …"
+			],
+			[
+				"vie",
+				"view_bag"
+			],
+			[
+				"o",
+				"o:f\tObject Method"
+			],
+			[
+				"water",
+				"water"
+			],
+			[
+				"nov",
+				"noviceWidgeteerCost"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"num",
+				"numNoviceWidgeteers"
+			],
+			[
+				"h",
+				"h_conv2"
+			],
+			[
+				"bat",
+				"batch_xs"
+			],
+			[
+				"trian",
+				"train_step"
+			],
+			[
+				"debug",
+				"debugLinks"
+			],
+			[
+				"carou",
+				"carouselLinks"
+			],
+			[
+				"caro",
+				"carouselLinks"
+			],
+			[
+				"com",
+				"com_files"
+			],
+			[
+				"height",
+				"height"
+			],
+			[
+				"content",
+				"align-content"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.js",
+			"settings":
+			{
+				"buffer_size": 273,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.pug",
+			"settings":
+			{
+				"buffer_size": 907,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/styles/style.css",
+			"settings":
+			{
+				"buffer_size": 452,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.ts",
+			"settings":
+			{
+				"buffer_size": 3996,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Upgrade.ts",
+			"settings":
+			{
+				"buffer_size": 172,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 674,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/player.ts",
+			"settings":
+			{
+				"buffer_size": 159,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/canvas.ts",
+			"settings":
+			{
+				"buffer_size": 1760,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/cell.ts",
+			"settings":
+			{
+				"buffer_size": 172,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"format",
+				"TypeScript: Format Document"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"syn pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ref",
+				"Project: Refresh Folders"
+			],
+			[
+				"format\\",
+				"TypeScript: Format Document"
+			],
+			[
+				"re",
+				"Project: Refresh Folders"
+			],
+			[
+				"mv",
+				"git: mv current file"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"typescr",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"refac",
+				"TypeScript: Refactor"
+			],
+			[
+				"commit",
+				"git: commit"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"type",
+				"TypeScript: Format Document"
+			],
+			[
+				"pretti",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"inline",
+				"Inline Python: Replace with repr()"
+			],
+			[
+				"sort",
+				"JsonTree: Show Tree"
+			],
+			[
+				"form",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"new file",
+				"ANF: New File"
+			],
+			[
+				"set syn json",
+				"Set Syntax: JSON"
+			],
+			[
+				"forma",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"for",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"select",
+				"Bookmarks: Select All"
+			],
+			[
+				"pep",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"convert to ",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"snippet",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"preferen",
+				"Preferences: Settings"
+			],
+			[
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				":$",
+				":$ - EOF"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"module",
+				"Angular CLI: generate module"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ng g compo",
+				"Angular CLI: generate component"
+			],
+			[
+				"emmet",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"ng g comp",
+				"Angular CLI: generate component"
+			],
+			[
+				"angu",
+				"Angular CLI: generate component"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"refr",
+				"Project: Refresh Folders"
+			],
+			[
+				"ang",
+				"Snippet: Angular 2 Component Snippet"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"toggle",
+				"View: Toggle Status Bar"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst p",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"syn htl",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"preview",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				"spel",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"gen compon",
+				"Angular CLI: generate component"
+			],
+			[
+				"build",
+				"Angular CLI: build"
+			],
+			[
+				"color sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"rando",
+				"Random:Country"
+			],
+			[
+				"gen",
+				"Angular CLI: generate class"
+			],
+			[
+				"gener",
+				"Angular CLI: generate component"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sv ht",
+				"Tasks: Save as HTML…"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"ss php",
+				"Set Syntax: PHP"
+			],
+			[
+				"php",
+				"PHP CodeBeautifier"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				":ef",
+				":$ - EOF"
+			],
+			[
+				"projec",
+				"Project: Refresh Folders"
+			],
+			[
+				"snippe",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ss s",
+				"Set Syntax: SQL"
+			],
+			[
+				"snipp",
+				"Snippet: function"
+			],
+			[
+				"ss txt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"tog men",
+				"View: Toggle Menu"
+			],
+			[
+				"togg",
+				"View: Toggle Menu"
+			],
+			[
+				"to sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"rena",
+				"ANF: Rename File"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pkg cntrl remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal\t",
+				"Package Control: Install Package"
+			],
+			[
+				":4",
+				"Set Syntax: camlp4"
+			],
+			[
+				":",
+				":0 - BOF"
+			],
+			[
+				"open",
+				"Tasks: Open Link"
+			],
+			[
+				"ss task",
+				"Set Syntax: Tasks"
+			],
+			[
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"prefe",
+				"Preferences: Settings"
+			],
+			[
+				"ss py",
+				"Set Syntax: Python"
+			],
+			[
+				"instal \t",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"view ",
+				"View In Browser"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"python",
+				"Build With: Python"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"j",
+				"Set Syntax: JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insall",
+				"Install Package Control"
+			]
+		],
+		"width": 631.0
+	},
+	"console":
+	{
+		"height": 191.0,
+		"history":
+		[
+			"flutter doctor",
+			"flutter run"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/nicho/elemental",
+		"/C/Users/nicho/elemental/client",
+		"/C/Users/nicho/elemental/public",
+		"/C/Users/nicho/elemental/src",
+		"/C/Users/nicho/elemental/views",
+		"/C/Users/nicho/elemental/views/styles"
+	],
+	"file_history":
+	[
+		"/C/Users/nicho/elemental/public/bundle.js",
+		"/C/Users/nicho/elemental/styles/style.css",
+		"/C/Users/nicho/elemental/package.json",
+		"/C/Users/nicho/elemental/rollup.config.js",
+		"/C/Users/nicho/elemental/tsconfig.json",
+		"/C/Users/nicho/elemental/bundle.js",
+		"/C/Users/nicho/elemental/src/player.ts",
+		"/C/Users/nicho/elemental/src/types.d.ts",
+		"/C/Users/nicho/elemental/src/index.ts",
+		"/C/Users/nicho/elemental/app.js",
+		"/C/Users/nicho/elemental/.gitignore",
+		"/C/Users/nicho/Downloads/screeps-typescript-starter-master/screeps-typescript-starter-master/src/types.d.ts",
+		"/C/Users/nicho/elemental/types.d.ts",
+		"/C/Users/nicho/elemental/node_modules/lodash/lodash.js",
+		"/C/Users/nicho/elemental/index.ts",
+		"/C/Users/nicho/elemental/index.js",
+		"/C/Users/nicho/elemental/require.js",
+		"/C/Users/nicho/elemental/client",
+		"/C/Users/nicho/elemental/index.html",
+		"/C/Users/nicho/elemental",
+		"/C/Users/nicho/screeps-typescript-starter-master/guildAI/src/types.d.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/role.harvester.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/guildAI/src/utils/Traveler.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/guildAI/src/main.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/role.upgrader.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/role.harvester.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/role.builder.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/types.d.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/main.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/role.reserver.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/loop.tower.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/role.miner.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/todo.todo",
+		"/C/Users/nicho/screeps-typescript-starter-master/guildAI/rollup.config.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/guildAI/screeps.sample.json",
+		"/C/Users/nicho/screeps-typescript-starter-master/guildAI/screeps.json",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/src/consts.ts",
+		"/C/Users/nicho/screeps-typescript-starter-master/old_default/main.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/rollup.config.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/tsconfig.json",
+		"/C/Users/nicho/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/screeps.json",
+		"/C/Users/nicho/Downloads/main.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps-typescript-starter-master/dist/main.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/old_default/role.miner.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/old_default/role.upgrader.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/old_default/role.builder.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/old_default/role.harvester.js",
+		"/C/Users/nicho/screeps-typescript-starter-master/screeps.json",
+		"/C/Users/nicho/AppData/Local/Screeps/scripts/screeps.com/default/test.html",
+		"/C/Users/nicho/AppData/Local/Screeps/scripts/screeps.com/default/test.todo",
+		"/C/Users/nicho/AppData/Local/Screeps/scripts/screeps.com/default/utils",
+		"/C/Users/nicho/testInput.txt",
+		"/C/Users/nicho/Desktop/skyrim.ahk",
+		"/C/Users/nicho/RusticBakery/gen.txt",
+		"/C/Users/nicho/Documents/Curse/Minecraft/Instances/FTB Presents Direwolf20 1.12/config/InvTweaksRules.txt",
+		"/C/Users/nicho/Documents/Curse/Minecraft/Instances/SkyFactory 4/saves/A Chunky Bit/level.dat",
+		"/C/Users/nicho/realmgrinder",
+		"/C/Users/nicho/Downloads/TrollCraftServer_100/TrollCraftServer_100/eula.txt",
+		"/C/Users/nicho/RusticBakery/Confidential/forManagement.txt",
+		"/C/Users/nicho/Downloads/MP Import List Format (2).txt",
+		"/C/Users/nicho/Documents/UNPW.txt",
+		"/C/Users/nicho/forChristien.py",
+		"/C/Users/nicho/tasks.tasks",
+		"/C/Users/nicho/AppData/Local/Screeps/scripts/screeps.com/tutorial-1/main.js",
+		"/C/Users/nicho/realmgrinder.ahk",
+		"/C/Users/nicho/Downloads/MP Accounts Import - Sniper Fan Pages.txt",
+		"/C/code/cultist-sim/third-party/frangiclave-compendium/frangiclave/static/frangiclave.js",
+		"/C/code/cultist-sim/oracle.py",
+		"/C/code/cultist-sim/save.txt",
+		"/C/Users/nicho/AppData/LocalLow/Weather Factory/Cultist Simulator/save.txt",
+		"/C/code/cultist-sim/main.py",
+		"/C/code/cultist-sim/test.py",
+		"/C/Users/nicho/Exercism/python/rest-api/rest_api_test.py",
+		"/C/Users/nicho/AppData/Local/Programs/Python/Python36-32/lib/json/__init__.py",
+		"/C/Users/nicho/Exercism/python/ledger/ledger_test.py",
+		"/C/Users/nicho/Exercism/python/ledger/ledger.py",
+		"/C/Users/nicho/Exercism/python/luhn/luhn_test.py",
+		"/C/Users/nicho/Exercism/python/luhn/luhn.py",
+		"/C/Users/nicho/Exercism/python/scrabble-score/scrabble_score_test.py",
+		"/C/Users/nicho/Exercism/python/scrabble-score/scrabble_score.py",
+		"/C/Users/nicho/Exercism/python/etl/etl_test.py",
+		"/C/Users/nicho/Exercism/python/etl/etl.py",
+		"/C/Users/nicho/Exercism/python/anagram/anagram_test.py",
+		"/C/Users/nicho/Exercism/python/anagram/anagram.py",
+		"/C/Users/nicho/Exercism/python/diamond/diamond.py",
+		"/C/Users/nicho/Exercism/python/diamond/diamond_test.py",
+		"/C/Users/nicho/Exercism/python/forth/forth_test.py",
+		"/C/Users/nicho/Exercism/python/forth/forth.py",
+		"/C/Users/nicho/Exercism/python/rna-transcription/rna_transcription_test.py",
+		"/C/Users/nicho/Exercism/python/rna-transcription/rna_transcription.py",
+		"/C/Users/nicho/Exercism/python/robot-name/robot_name.py",
+		"/C/Users/nicho/Exercism/python/book-store/book_store_test.py",
+		"/C/Users/nicho/Exercism/python/book-store/book_store.py",
+		"/C/Users/nicho/Exercism/python/isbn-verifier/isbn_verifier_test.py",
+		"/C/Users/nicho/Exercism/python/isbn-verifier/isbn_verifier.py",
+		"/C/Users/nicho/Exercism/python/markdown/markdown_test.py",
+		"/C/Users/nicho/Exercism/python/markdown/markdown.py",
+		"/C/Users/nicho/Exercism/python/markdown/markdown_mine.py",
+		"/C/Users/nicho/Exercism/python/isogram/isogram_test.py",
+		"/C/Users/nicho/Exercism/python/isogram/isogram.py",
+		"/C/Users/nicho/Exercism/python/hamming/hamming_test.py",
+		"/C/Users/nicho/Exercism/python/hamming/hamming.py",
+		"/C/Users/nicho/Exercism/python/raindrops/raindrops_test.py",
+		"/C/Users/nicho/Exercism/python/raindrops/raindrops.py",
+		"/C/Users/nicho/Exercism/python/word-count/word_count_test.py",
+		"/C/Users/nicho/Exercism/python/word-count/word_count.py",
+		"/C/Users/nicho/Exercism/python/matrix/matrix.py",
+		"/C/Users/nicho/Exercism/python/matrix/matrix_test.py",
+		"/C/Users/nicho/Exercism/test.py",
+		"/C/Users/nicho/Exercism/python/high-scores/high_scores.py",
+		"/C/Users/nicho/Exercism/python/high-scores/high_scores_test.py",
+		"/C/Users/nicho/Exercism/python/yacht/yacht_test.py",
+		"/C/Users/nicho/Exercism/python/acronym/acronym_test.py",
+		"/C/Users/nicho/Exercism/python/yacht/yacht.py",
+		"/C/Users/nicho/Exercism/python/acronym/acronym.py",
+		"/C/Users/nicho/Exercism/python/rational-numbers/rational_numbers.py",
+		"/C/Users/nicho/Exercism/python/rational-numbers/rational_numbers_test.py",
+		"/C/Users/nicho/Exercism/python/reverse-string/reverse_string_test.py",
+		"/C/Users/nicho/Exercism/python/reverse-string/reverse_string.py",
+		"/C/Users/nicho/Exercism/python/leap/leap_test.py",
+		"/C/Users/nicho/Exercism/python/leap/leap.py",
+		"/C/Users/nicho/Exercism/exercism.sublime-project",
+		"/C/Users/nicho/Exercism/python/armstrong-numbers/armstrong_numbers_test.py",
+		"/C/Users/nicho/Exercism/python/armstrong-numbers/armstrong_numbers.py",
+		"/C/Users/nicho/Exercism/javascript/hello-world/hello-world.js",
+		"/C/Users/nicho/Exercism/mips/binary/runner.mips",
+		"/C/Users/nicho/Exercism/mips/binary/impl.mips"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pageY",
+			"pageX",
+			"10",
+			"100",
+			"width",
+			"height",
+			"width",
+			"```",
+			"$('#log')"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/Unity3D/UnityJavaScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"SL.298.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/styles/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/index.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3461,
+								3461
+							]
+						],
+						"settings":
+						{
+							"SL.297.region_keys":
+							[
+							],
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1305.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Upgrade.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								170
+							]
+						],
+						"settings":
+						{
+							"SL.315.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/player.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"SL.303.region_keys":
+							[
+							],
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/canvas.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							],
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"SL.219.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/cell.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"SL.222.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"auto_complete": true,
+							"extensions":
+							[
+								"ts"
+							],
+							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 109.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 589.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 136.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 297.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.typescript_output":
+	{
+		"height": 109.0
+	},
+	"pinned_build_system": "",
+	"project": "elemental.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cel",
+				"src\\cell.ts"
+			],
+			[
+				"inde",
+				"index.ts"
+			],
+			[
+				"bun",
+				"bundle.js"
+			],
+			[
+				"harvester",
+				"screeps-typescript-starter-master\\src\\role.harvester.ts"
+			],
+			[
+				"frangi",
+				"third-party\\frangiclave-compendium\\frangiclave\\static\\frangiclave.js"
+			],
+			[
+				"main",
+				"main.py"
+			],
+			[
+				"rest",
+				"python\\rest-api\\rest_api_test.py"
+			],
+			[
+				"leder",
+				"python\\ledger\\ledger_test.py"
+			],
+			[
+				"ledger",
+				"python\\ledger\\ledger.py"
+			],
+			[
+				"luh",
+				"python\\luhn\\luhn_test.py"
+			],
+			[
+				"scr",
+				"python\\scrabble-score\\scrabble_score_test.py"
+			],
+			[
+				"etlt",
+				"python\\etl\\etl_test.py"
+			],
+			[
+				"etl",
+				"python\\etl\\etl.py"
+			],
+			[
+				"ana te",
+				"python\\anagram\\anagram_test.py"
+			],
+			[
+				"ana",
+				"python\\anagram\\anagram.py"
+			],
+			[
+				"diam",
+				"python\\diamond\\diamond_test.py"
+			],
+			[
+				"dia",
+				"python\\diamond\\diamond.py"
+			],
+			[
+				"for",
+				"python\\forth\\forth_test.py"
+			],
+			[
+				"rna",
+				"python\\rna-transcription\\rna_transcription_test.py"
+			],
+			[
+				"rna_",
+				"python\\rna-transcription\\rna_transcription.py"
+			],
+			[
+				"b",
+				"python\\book-store\\book_store_test.py"
+			],
+			[
+				"boo",
+				"python\\book-store\\book_store.py"
+			],
+			[
+				"isb",
+				"python\\isbn-verifier\\isbn_verifier_test.py"
+			],
+			[
+				"mark",
+				"python\\markdown\\markdown_test.py"
+			],
+			[
+				"iso",
+				"python\\isogram\\isogram_test.py"
+			],
+			[
+				"hammin",
+				"python\\hamming\\hamming_test.py"
+			],
+			[
+				"hamm",
+				"python\\hamming\\hamming.py"
+			],
+			[
+				"rain",
+				"python\\raindrops\\raindrops_test.py"
+			],
+			[
+				"word",
+				"python\\word-count\\word_count_test.py"
+			],
+			[
+				"matr",
+				"python\\matrix\\matrix_test.py"
+			],
+			[
+				"",
+				"test.py"
+			],
+			[
+				"matri",
+				"python\\matrix\\matrix.py"
+			],
+			[
+				"hi",
+				"python\\high-scores\\high_scores_test.py"
+			],
+			[
+				"high",
+				"python\\high-scores\\high_scores.py"
+			],
+			[
+				"acr",
+				"python\\acronym\\acronym_test.py"
+			],
+			[
+				"yah",
+				"python\\yacht\\yacht_test.py"
+			],
+			[
+				"yach",
+				"python\\yacht\\yacht.py"
+			],
+			[
+				"ration",
+				"python\\rational-numbers\\rational_numbers.py"
+			],
+			[
+				"rever",
+				"python\\reverse-string\\reverse_string_test.py"
+			],
+			[
+				"leap",
+				"python\\leap\\leap_test.py"
+			],
+			[
+				"arm",
+				"python\\armstrong-numbers\\armstrong_numbers.py"
+			],
+			[
+				"header",
+				"sections\\header.liquid"
+			],
+			[
+				"footer",
+				"sections\\footer.liquid"
+			],
+			[
+				".json",
+				"config\\settings_data.json"
+			],
+			[
+				"settings",
+				"config\\settings_data.json"
+			],
+			[
+				"index",
+				"templates\\index.liquid"
+			],
+			[
+				"items.com",
+				"src\\app\\items\\items.component.html"
+			],
+			[
+				"items.compo",
+				"src\\app\\items\\items.component.ts"
+			],
+			[
+				"app.modu",
+				"src\\app\\app.module.ts"
+			],
+			[
+				"dist/",
+				"node_modules\\acorn\\dist\\.keep"
+			],
+			[
+				"app.compon",
+				"src\\app\\app.component.html"
+			],
+			[
+				"app.compom",
+				"src\\app\\app.component.html"
+			],
+			[
+				"app.mo",
+				"src\\app\\app.module.ts"
+			],
+			[
+				"app.comp",
+				"src\\app\\app.component.ts"
+			],
+			[
+				"itemscss",
+				"src\\app\\items\\items.component.css"
+			],
+			[
+				"items.comp",
+				"src\\app\\items\\items.component.html"
+			],
+			[
+				"item-de",
+				"src\\app\\item-detail\\item-detail.component.ts"
+			],
+			[
+				"item.com",
+				"src\\app\\items\\items.component.ts"
+			],
+			[
+				"item",
+				"src\\app\\item.ts"
+			],
+			[
+				"app.comts",
+				"src\\app\\app.component.ts"
+			],
+			[
+				"appcomp",
+				"src\\app\\app.component.css"
+			],
+			[
+				"v",
+				"vim.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\nicho\\Documents\\resume\\resume.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
