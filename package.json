@@ -4,7 +4,7 @@
   "description": "Elemental incremental game on a 2d map, diffusion based",
   "main": "./public/index.js",
   "scripts": {
-    "build": "rollup -c && node",
+    "build": "rollup -c && nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -1,0 +1,46 @@
+I have a number of different ideas about what direction this game could go.
+
+CORE CONCEPTS:
+  The Player:
+    Has a mana pool
+    Can click the grid to add mana to cells
+  Mana: 
+    Neutral/Pure/Basic?
+    Basic Elements
+    Different types of mana act differently:
+      Merging to make more complicated types?
+      Different ways they move on the grid?
+        e.g. fire goes up, earth goes down, air diffuses, water sloshes around
+  The Grid:
+    Made up of cells
+    Each cell can hold mana
+      Of different types? depends on if they 'merge' or not
+    Player can click to add mana to cells
+    Player absorbs mana from the grid to refill their own mana pool
+      how fast?
+  Upgrades:
+    Expand grid
+    Up clickpower
+    Up absorb rate
+    Unlock new mana types
+    Cell mana pool size? Maybe building?
+      Building, but upgrade overall capacity? maybe not
+
+  Buildings:
+    Source:
+      Generates mana? or sends it to nearby cells
+      Split into two buildings? or make other penalty ie can't hold mana, but generates it
+    Sink:
+      Sucks in mana from other nearby cells
+    Link:
+      Sends mana to player faster than normal
+    Storage:
+      Ups cell mana capacity
+
+
+
+Core Gameplay Loop:
+  Player adds mana to grid
+  Player absorbs mana back from grid, with a bit of a bonus
+  ???
+  Profit!
