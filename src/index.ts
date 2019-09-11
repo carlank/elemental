@@ -2,6 +2,11 @@ import Cell from './cell';
 import * as Canvas from './canvas';
 import { Player } from './player';
 import { Upgrade } from './upgrade';
+import { hexi } from '../public/hexi.min.js';
+
+const g = hexi(256, 256, ()=>{});
+g.text('Hello World');
+g.start();
 
 var grid = Array();
 var width = 1;
