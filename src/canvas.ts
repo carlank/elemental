@@ -1,8 +1,8 @@
-import { Cell } from './cell';
+import Cell from './cell';
 var canvas: any = document.getElementById('c');
 var context = canvas.getContext('2d');
 
-export function getCursorPosition(e) {
+export function getCursorPosition(e): Cell {
     var x;
     var y;
     if (e.clientX !== undefined && e.clientY !== undefined) {
@@ -15,7 +15,7 @@ export function getCursorPosition(e) {
 
     x -= canvas.offsetLeft;
     y -= canvas.offsetTop;
-    var res = new Cell(Math.floor(x / 20),
+    var res = Cell(Math.floor(x / 20),
         Math.floor(y / 20));
     return res;
 }
@@ -44,7 +44,7 @@ function fillCell(ce, clr) {
 export function updateCanvas(grid, WIDTH, HEIGHT) {
     for (var x = 0; x < WIDTH; x++) {
         for (var y = 0; y < HEIGHT; y++) {
-            var cur = new Cell(x, y);
+            var cur = Cell(x, y);
             var rounded = Math.round(grid[x][y]);
             var hue = rounded % 360;
             var sat = (50 + Math.floor(rounded / 10)) % 500;

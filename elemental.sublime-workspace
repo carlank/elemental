@@ -408,29 +408,13 @@
 	"buffers":
 	[
 		{
-			"file": "public/index.js",
+			"contents": "export default (x,y) => {\n    let row: number = 0;\n    let column: number = 0;\n    return {\n    \trow: row\n    }\n}",
+			"file": "src/cell.ts",
+			"file_size": 80,
+			"file_write_time": 132093651120732598,
 			"settings":
 			{
-				"buffer_size": 273,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/index.pug",
-			"settings":
-			{
-				"buffer_size": 907,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/styles/style.css",
-			"settings":
-			{
-				"buffer_size": 452,
-				"encoding": "UTF-8",
+				"buffer_size": 113,
 				"line_ending": "Windows"
 			}
 		},
@@ -438,34 +422,7 @@
 			"file": "src/index.ts",
 			"settings":
 			{
-				"buffer_size": 3996,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/Upgrade.ts",
-			"settings":
-			{
-				"buffer_size": 172,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 674,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/player.ts",
-			"settings":
-			{
-				"buffer_size": 159,
+				"buffer_size": 4168,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -474,16 +431,7 @@
 			"file": "src/canvas.ts",
 			"settings":
 			{
-				"buffer_size": 1760,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/cell.ts",
-			"settings":
-			{
-				"buffer_size": 172,
+				"buffer_size": 1758,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -536,6 +484,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"BRANC",
+				"git: branch"
+			],
+			[
+				"commi",
+				"git: commit"
+			],
+			[
+				"git commit",
+				"git: commit"
+			],
 			[
 				"format",
 				"TypeScript: Format Document"
@@ -1048,17 +1008,26 @@
 	],
 	"file_history":
 	[
+		"/C/Users/nicho/elemental/src/cell.ts",
+		"/C/Users/nicho/elemental/src/canvas.ts",
+		"/C/Users/nicho/elemental/src/player.ts",
+		"/C/Users/nicho/elemental/package.json",
+		"/C/Users/nicho/elemental/src/Upgrade.ts",
+		"/C/Users/nicho/elemental/.gitignore",
+		"/C/Users/nicho/elemental/src/index.ts",
+		"/C/Users/nicho/elemental/views/styles/style.css",
+		"/C/Users/nicho/elemental/views/index.pug",
+		"/C/Users/nicho/elemental/views/header.pug",
+		"/C/Users/nicho/elemental/public/index.js",
+		"/C/Users/nicho/elemental/todo.todo",
+		"/C/Users/nicho/elemental/notes.txt",
 		"/C/Users/nicho/elemental/public/bundle.js",
 		"/C/Users/nicho/elemental/styles/style.css",
-		"/C/Users/nicho/elemental/package.json",
 		"/C/Users/nicho/elemental/rollup.config.js",
 		"/C/Users/nicho/elemental/tsconfig.json",
 		"/C/Users/nicho/elemental/bundle.js",
-		"/C/Users/nicho/elemental/src/player.ts",
 		"/C/Users/nicho/elemental/src/types.d.ts",
-		"/C/Users/nicho/elemental/src/index.ts",
 		"/C/Users/nicho/elemental/app.js",
-		"/C/Users/nicho/elemental/.gitignore",
 		"/C/Users/nicho/Downloads/screeps-typescript-starter-master/screeps-typescript-starter-master/src/types.d.ts",
 		"/C/Users/nicho/elemental/types.d.ts",
 		"/C/Users/nicho/elemental/node_modules/lodash/lodash.js",
@@ -1166,20 +1135,11 @@
 		"/C/Users/nicho/Exercism/python/acronym/acronym.py",
 		"/C/Users/nicho/Exercism/python/rational-numbers/rational_numbers.py",
 		"/C/Users/nicho/Exercism/python/rational-numbers/rational_numbers_test.py",
-		"/C/Users/nicho/Exercism/python/reverse-string/reverse_string_test.py",
-		"/C/Users/nicho/Exercism/python/reverse-string/reverse_string.py",
-		"/C/Users/nicho/Exercism/python/leap/leap_test.py",
-		"/C/Users/nicho/Exercism/python/leap/leap.py",
-		"/C/Users/nicho/Exercism/exercism.sublime-project",
-		"/C/Users/nicho/Exercism/python/armstrong-numbers/armstrong_numbers_test.py",
-		"/C/Users/nicho/Exercism/python/armstrong-numbers/armstrong_numbers.py",
-		"/C/Users/nicho/Exercism/javascript/hello-world/hello-world.js",
-		"/C/Users/nicho/Exercism/mips/binary/runner.mips",
-		"/C/Users/nicho/Exercism/mips/binary/impl.mips"
+		"/C/Users/nicho/Exercism/python/reverse-string/reverse_string_test.py"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -1193,6 +1153,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"clickPower",
+			"project",
 			"pageY",
 			"pageX",
 			"10",
@@ -1219,141 +1181,28 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/index.js",
+					"file": "src/cell.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 273,
+						"buffer_size": 113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								105,
+								105
 							]
 						],
 						"settings":
 						{
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/Unity3D/UnityJavaScript.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/index.pug",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 907,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								907,
-								907
-							]
-						],
-						"settings":
-						{
-							"SL.298.region_keys":
-							[
-							],
-							"_anf_new": "",
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/styles/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								438,
-								438
-							]
-						],
-						"settings":
-						{
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/index.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3996,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3461,
-								3461
-							]
-						],
-						"settings":
-						{
-							"SL.297.region_keys":
-							[
-							],
 							"auto_complete": true,
 							"extensions":
 							[
@@ -1361,135 +1210,69 @@
 							],
 							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
 							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
 							"typescript_plugin_format_options":
 							{
-								"convertTabsToSpaces": true,
+								"convertTabsToSpaces": false,
 								"indentSize": 4,
 								"tabSize": 4
 							},
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1305.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/Upgrade.ts",
+					"buffer": 1,
+					"file": "src/index.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 172,
+						"buffer_size": 4168,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								170,
-								170
+								11,
+								11
 							]
 						],
 						"settings":
 						{
-							"SL.315.region_keys":
-							[
-							],
-							"_anf_new": "",
-							"auto_complete": true,
-							"extensions":
-							[
-								"ts"
-							],
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1134.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "package.json",
+					"buffer": 2,
+					"file": "src/canvas.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 674,
+						"buffer_size": 1758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								157,
+								157
 							]
 						],
 						"settings":
 						{
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/player.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								135,
-								135
-							]
-						],
-						"settings":
-						{
-							"SL.303.region_keys":
-							[
-							],
-							"auto_complete": true,
-							"extensions":
-							[
-								"ts"
-							],
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1497,111 +1280,13 @@
 					},
 					"stack_index": 2,
 					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/canvas.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1760,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								224,
-								224
-							],
-							[
-								286,
-								286
-							]
-						],
-						"settings":
-						{
-							"SL.219.region_keys":
-							[
-							],
-							"_anf_new": "",
-							"auto_complete": true,
-							"extensions":
-							[
-								"ts"
-							],
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": true,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/cell.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								172,
-								172
-							]
-						],
-						"settings":
-						{
-							"SL.222.region_keys":
-							[
-							],
-							"_anf_new": "",
-							"auto_complete": true,
-							"extensions":
-							[
-								"ts"
-							],
-							"git_savvy.repo_path": "C:\\Users\\nicho\\elemental",
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": true,
-								"indentSize": 4,
-								"tabSize": 4
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1662,7 +1347,7 @@
 	"project": "elemental.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1930,7 +1615,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\nicho\\Documents\\resume\\resume.sublime-project"
+				"C:\\Users\\nicho\\Exercism\\exercism.sublime-project"
 			]
 		],
 		"width": 475.0

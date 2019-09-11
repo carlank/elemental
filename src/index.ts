@@ -1,4 +1,4 @@
-import { Cell } from './cell';
+import Cell from './cell';
 import * as Canvas from './canvas';
 import { Player } from './player';
 import { Upgrade } from './upgrade';
@@ -8,11 +8,15 @@ var width = 1;
 var height = 1;
 var clickPower = 1;
 var speed = 10; // higher is slower
-const cellMax = 1000;
+const cellMax = 100;
 const maxSize = 20;
 
-var player = new Player();
+const gameData = {
+    player: new Player(),
 
+};
+
+var player = gameData.player;
 
 function prettify(num) {
     return (Math.round(num * 100) / 100);
@@ -62,13 +66,14 @@ var updateGrid = function() {
     }
 
     // Visual Stuff now
-    $('#log').html('');
+    $('#log').html('<table id="grid" class=".table container"></table>');
     for (var a = 0; a < width; a++) {
+        $('#grid').append('<tr>');
         for (var b = 0; b < height; b++) {
             var strung = prettify(grid[b][a]).toString();
-            $('#log').append(strung + ' ' + -prettify(grid[a][b] * suckFactor) + '/tick');
+            $('#grid').append('<td>' + strung + ' ' + -prettify(grid[a][b] * suckFactor) + '/tick</td>');
         }
-        $('#log').append($('<br/>'));
+        $('#grid').append('</tr>');
     }
 };
 
@@ -101,6 +106,7 @@ function init() {
     Canvas.initCanvas(gridOnClick, width, height);
     $('#crafting').append('<button id="growButton">Grow</button>');
     $('#crafting').append('<button id="powerButton">ClickPower: ' + clickPower + '</button>');
+    $('#crafting').append('')
     $('#growButton').click(growField);
     $('#powerButton').click(addPower);
 }
@@ -126,7 +132,7 @@ function run() {
 
     $('#log').append('Mana: ' + prettify(player.mana));
 
-    // $('#powerButton').html('ClickPower: ' + clickPower);
+    $('#powerButton').html('ClickPower: ' + clickPower);
 }
 
 init();

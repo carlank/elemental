@@ -5,6 +5,8 @@ export class Player {
 	airMana: number = 0;
 	earthMana: number = 0;
 
+	clickPower: number = 1;
+
 	constructor(){
 	}
 

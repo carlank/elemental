@@ -3,13 +3,14 @@
     factory();
 }(function () { 'use strict';
 
-    class Cell {
-        constructor(row, column) {
-            this.row = row;
-            this.column = column;
-        }
-    }
-    //# sourceMappingURL=cell.js.map
+    var Cell = (x, y) => {
+        let row = 0;
+        let column = 0;
+        return {
+            row: row,
+            column: column
+        };
+    };
 
     var canvas = document.getElementById('c');
     var context = canvas.getContext('2d');
@@ -26,7 +27,7 @@
         }
         x -= canvas.offsetLeft;
         y -= canvas.offsetTop;
-        var res = new Cell(Math.floor(x / 20), Math.floor(y / 20));
+        var res = Cell();
         return res;
     }
     function initCanvas(callback, WIDTH, HEIGHT) {
@@ -49,7 +50,7 @@
     function updateCanvas(grid, WIDTH, HEIGHT) {
         for (var x = 0; x < WIDTH; x++) {
             for (var y = 0; y < HEIGHT; y++) {
-                var cur = new Cell(x, y);
+                var cur = Cell();
                 var rounded = Math.round(grid[x][y]);
                 var hue = rounded % 360;
                 var sat = (50 + Math.floor(rounded / 10)) % 500;
@@ -60,7 +61,6 @@
             }
         }
     }
-    //# sourceMappingURL=canvas.js.map
 
     class Player {
         constructor() {
@@ -69,18 +69,21 @@
             this.waterMana = 0;
             this.airMana = 0;
             this.earthMana = 0;
+            this.clickPower = 1;
         }
     }
-    //# sourceMappingURL=player.js.map
 
     var grid = Array();
     var width = 1;
     var height = 1;
     var clickPower = 1;
     var speed = 10; // higher is slower
-    const cellMax = 1000;
+    const cellMax = 100;
     const maxSize = 20;
-    var player = new Player();
+    const gameData = {
+        player: new Player(),
+    };
+    var player = gameData.player;
     function prettify(num) {
         return (Math.round(num * 100) / 100);
     }
@@ -124,13 +127,14 @@
             }
         }
         // Visual Stuff now
-        $('#log').html('');
+        $('#log').html('<table id="grid" class=".table container"></table>');
         for (var a = 0; a < width; a++) {
+            $('#grid').append('<tr>');
             for (var b = 0; b < height; b++) {
                 var strung = prettify(grid[b][a]).toString();
-                $('#log').append(strung + ' ' + -prettify(grid[a][b] * suckFactor) + '/tick');
+                $('#grid').append('<td>' + strung + ' ' + -prettify(grid[a][b] * suckFactor) + '/tick</td>');
             }
-            $('#log').append($('<br/>'));
+            $('#grid').append('</tr>');
         }
     };
     function gridOnClick(e) {
@@ -158,6 +162,7 @@
         initCanvas(gridOnClick, width, height);
         $('#crafting').append('<button id="growButton">Grow</button>');
         $('#crafting').append('<button id="powerButton">ClickPower: ' + clickPower + '</button>');
+        $('#crafting').append('');
         $('#growButton').click(growField);
         $('#powerButton').click(addPower);
     }
@@ -178,7 +183,7 @@
         updateGrid();
         updateCanvas(grid, width, height);
         $('#log').append('Mana: ' + prettify(player.mana));
-        // $('#powerButton').html('ClickPower: ' + clickPower);
+        $('#powerButton').html('ClickPower: ' + clickPower);
     }
     init();
     setInterval(run, 100);
