@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.15",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "rollup": "^1.17.0",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-commonjs": "^9.1.4",
